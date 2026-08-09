@@ -112,10 +112,11 @@
 
           homebrew = {
             enable = true;
-            brews = [ "mole" ];
+            brews = [
+              "mole"
+            ];
             casks = [
               "ghostty"
-              "steam"
             ];
             onActivation.cleanup = "uninstall";
           };
